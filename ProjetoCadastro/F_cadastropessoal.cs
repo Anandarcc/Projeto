@@ -30,7 +30,7 @@ namespace ProjetoCadastro
             String cargo = cbxcargo.Text;
             String contato = tbxcontato.Text;
 
-            MessageBox.Show("Cadastro realizado com sucesso!");
+            MessageBox.Show("Preencha os campos");
 
         }
     }
