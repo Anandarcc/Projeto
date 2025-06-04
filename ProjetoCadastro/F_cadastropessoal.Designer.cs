@@ -37,7 +37,7 @@
             this.tbxcpf = new System.Windows.Forms.TextBox();
             this.tbxemail = new System.Windows.Forms.TextBox();
             this.tbxcontato = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btncadastrarpessoa = new System.Windows.Forms.Button();
             this.cbxcargo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
@@ -115,15 +115,15 @@
             this.tbxcontato.Size = new System.Drawing.Size(293, 20);
             this.tbxcontato.TabIndex = 9;
             // 
-            // button1
+            // btncadastrarpessoa
             // 
-            this.button1.Location = new System.Drawing.Point(326, 229);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btncadastrarpessoa.Location = new System.Drawing.Point(326, 229);
+            this.btncadastrarpessoa.Name = "btncadastrarpessoa";
+            this.btncadastrarpessoa.Size = new System.Drawing.Size(75, 23);
+            this.btncadastrarpessoa.TabIndex = 11;
+            this.btncadastrarpessoa.Text = "Cadastrar";
+            this.btncadastrarpessoa.UseVisualStyleBackColor = true;
+            this.btncadastrarpessoa.Click += new System.EventHandler(this.button1_Click);
             // 
             // cbxcargo
             // 
@@ -138,7 +138,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btncadastrarpessoa);
             this.Controls.Add(this.cbxcargo);
             this.Controls.Add(this.tbxcontato);
             this.Controls.Add(this.tbxemail);
@@ -167,7 +167,7 @@
         private System.Windows.Forms.TextBox tbxcpf;
         private System.Windows.Forms.TextBox tbxemail;
         private System.Windows.Forms.TextBox tbxcontato;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btncadastrarpessoa;
         private System.Windows.Forms.ComboBox cbxcargo;
     }
 }

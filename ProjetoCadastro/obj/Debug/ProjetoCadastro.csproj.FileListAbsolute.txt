@@ -12,3 +12,17 @@ C:\Users\Aluno\Documents\Davila\ProjetoCadastro\ProjetoCadastro\obj\Debug\Projet
 C:\Users\Aluno\Documents\Davila\ProjetoCadastro\ProjetoCadastro\obj\Debug\ProjetoCadastro.exe
 C:\Users\Aluno\Documents\Davila\ProjetoCadastro\ProjetoCadastro\obj\Debug\ProjetoCadastro.pdb
 C:\Users\Aluno\Documents\Davila\ProjetoCadastro\ProjetoCadastro\obj\Debug\ProjetoCadastro.exe.config
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\bin\Debug\ProjetoCadastro.exe.config
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\bin\Debug\ProjetoCadastro.exe
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\bin\Debug\ProjetoCadastro.pdb
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.csproj.AssemblyReference.cache
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.exe.config
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.Form1.resources
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.F_buscar.resources
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.F_cadastrodeprodutos.resources
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.F_cadastropessoal.resources
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.Properties.Resources.resources
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.csproj.GenerateResource.cache
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.csproj.CoreCompileInputs.cache
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.exe
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.pdb
