@@ -3,19 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_buscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "F_cadastrodeprodutos.cs",
+              "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastrodeprodutos.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_cadastrodeprodutos.cs",
+              "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastrodeprodutos.cs",
+              "RelativeToolTip": "ProjetoCadastro\\F_cadastrodeprodutos.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T18:16:30.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "F_cadastropessoal.cs",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastropessoal.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_cadastropessoal.cs",
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastropessoal.cs",
               "RelativeToolTip": "ProjetoCadastro\\F_cadastropessoal.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA3wBIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCwAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T17:32:45.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\Form1.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\Form1.cs",
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\Form1.cs",
               "RelativeToolTip": "ProjetoCadastro\\Form1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T17:15:19.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "F_buscar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_buscar.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_buscar.cs",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "F_cadastrodeprodutos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastrodeprodutos.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_cadastrodeprodutos.cs",
@@ -88,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "F_cadastropessoal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastropessoal.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_cadastropessoal.cs",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\Form1.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\Form1.cs",

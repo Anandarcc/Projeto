@@ -31,7 +31,7 @@ namespace ProjetoCadastro
             SqlConnection conn = new SqlConnection(strconn);
 
             //Comando sql
-            string sql = "INSERT INTO T_Cadastro_Pessoal" + "(NomeCompleto, CPF, Email, CargoOcupado, Contato)" + "VALUES(@NomeCompleto, @CPF, @Email, @CargoOcupado,@Contato)";
+            string sql = "INSERT INTO T_Pessoal (NomeCompleto, CPF, Email,Senha, CargoOcupado, Contato) VALUES(@NomeCompleto, @CPF, @Email,@Senha, @CargoOcupado,@Contato)";
 
             try
             {
@@ -40,6 +40,7 @@ namespace ProjetoCadastro
                 comando.Parameters.Add(new SqlParameter("@NomeCompleto", tbxnome.Text));
                 comando.Parameters.Add(new SqlParameter("@CPF", tbxcpf.Text)); 
                 comando.Parameters.Add(new SqlParameter("@Email", tbxemail.Text));
+                comando.Parameters.Add(new SqlParameter("@Senha", tbxsenha.Text));
                 comando.Parameters.Add(new SqlParameter("@CargoOcupado", cbxcargo.Text));
                 comando.Parameters.Add(new SqlParameter("@Contato", tbxcontato.Text));
 

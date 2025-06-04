@@ -39,6 +39,8 @@
             this.tbxcontato = new System.Windows.Forms.TextBox();
             this.btncadastrarpessoa = new System.Windows.Forms.Button();
             this.cbxcargo = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tbxsenha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -72,7 +74,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(129, 132);
+            this.label4.Location = new System.Drawing.Point(129, 168);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 13);
             this.label4.TabIndex = 3;
@@ -81,7 +83,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(129, 168);
+            this.label5.Location = new System.Drawing.Point(129, 204);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 4;
@@ -91,33 +93,33 @@
             // 
             this.tbxnome.Location = new System.Drawing.Point(239, 28);
             this.tbxnome.Name = "tbxnome";
-            this.tbxnome.Size = new System.Drawing.Size(291, 20);
+            this.tbxnome.Size = new System.Drawing.Size(293, 20);
             this.tbxnome.TabIndex = 5;
             // 
             // tbxcpf
             // 
             this.tbxcpf.Location = new System.Drawing.Point(239, 60);
             this.tbxcpf.Name = "tbxcpf";
-            this.tbxcpf.Size = new System.Drawing.Size(291, 20);
+            this.tbxcpf.Size = new System.Drawing.Size(293, 20);
             this.tbxcpf.TabIndex = 6;
             // 
             // tbxemail
             // 
-            this.tbxemail.Location = new System.Drawing.Point(239, 96);
+            this.tbxemail.Location = new System.Drawing.Point(239, 99);
             this.tbxemail.Name = "tbxemail";
             this.tbxemail.Size = new System.Drawing.Size(293, 20);
             this.tbxemail.TabIndex = 7;
             // 
             // tbxcontato
             // 
-            this.tbxcontato.Location = new System.Drawing.Point(239, 168);
+            this.tbxcontato.Location = new System.Drawing.Point(239, 201);
             this.tbxcontato.Name = "tbxcontato";
             this.tbxcontato.Size = new System.Drawing.Size(293, 20);
             this.tbxcontato.TabIndex = 9;
             // 
             // btncadastrarpessoa
             // 
-            this.btncadastrarpessoa.Location = new System.Drawing.Point(326, 229);
+            this.btncadastrarpessoa.Location = new System.Drawing.Point(334, 284);
             this.btncadastrarpessoa.Name = "btncadastrarpessoa";
             this.btncadastrarpessoa.Size = new System.Drawing.Size(75, 23);
             this.btncadastrarpessoa.TabIndex = 11;
@@ -128,16 +130,37 @@
             // cbxcargo
             // 
             this.cbxcargo.FormattingEnabled = true;
-            this.cbxcargo.Location = new System.Drawing.Point(239, 132);
+            this.cbxcargo.Items.AddRange(new object[] {
+            "Estoquista",
+            "Almoxarife"});
+            this.cbxcargo.Location = new System.Drawing.Point(239, 165);
             this.cbxcargo.Name = "cbxcargo";
             this.cbxcargo.Size = new System.Drawing.Size(293, 21);
             this.cbxcargo.TabIndex = 10;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(129, 135);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(38, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Senha";
+            // 
+            // tbxsenha
+            // 
+            this.tbxsenha.Location = new System.Drawing.Point(239, 132);
+            this.tbxsenha.Name = "tbxsenha";
+            this.tbxsenha.Size = new System.Drawing.Size(293, 20);
+            this.tbxsenha.TabIndex = 13;
             // 
             // F_cadastropessoal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tbxsenha);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btncadastrarpessoa);
             this.Controls.Add(this.cbxcargo);
             this.Controls.Add(this.tbxcontato);
@@ -169,5 +192,7 @@
         private System.Windows.Forms.TextBox tbxcontato;
         private System.Windows.Forms.Button btncadastrarpessoa;
         private System.Windows.Forms.ComboBox cbxcargo;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox tbxsenha;
     }
 }

@@ -72,7 +72,7 @@
             // 
             // btnentrar
             // 
-            this.btnentrar.Location = new System.Drawing.Point(359, 204);
+            this.btnentrar.Location = new System.Drawing.Point(357, 217);
             this.btnentrar.Name = "btnentrar";
             this.btnentrar.Size = new System.Drawing.Size(75, 23);
             this.btnentrar.TabIndex = 4;

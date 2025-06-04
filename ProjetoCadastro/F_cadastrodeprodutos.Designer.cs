@@ -50,6 +50,7 @@
             this.btncadastrarpr.TabIndex = 0;
             this.btncadastrarpr.Text = "Cadastrar Produto";
             this.btncadastrarpr.UseVisualStyleBackColor = true;
+            this.btncadastrarpr.Click += new System.EventHandler(this.btncadastrarpr_Click);
             // 
             // label1
             // 

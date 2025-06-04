@@ -38,5 +38,10 @@ namespace ProjetoCadastro
             F_cadastropessoal telacadastroP = new F_cadastropessoal();
             telacadastroP.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            
+        }
     }
 }
