@@ -22,7 +22,7 @@ namespace ProjetoCadastro
             String email = tbxemail.Text;
             String senha = tbxsenha.Text;
 
-            if (email == "adm@gmail.com" && senha == "22070104")
+            if (email == "adm@gmail.com" && senha == "2207")
             {
                 F_cadastrodeprodutos telaprodutos = new F_cadastrodeprodutos();
                 telaprodutos.Show();
