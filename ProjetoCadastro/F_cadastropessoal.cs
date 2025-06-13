@@ -31,16 +31,21 @@ namespace ProjetoCadastro
             SqlConnection conn = new SqlConnection(strconn);
 
             //Comando sql
-            string sql = "INSERT INTO T_Pessoal (NomeCompleto, CPF, Email,Senha, CargoOcupado, Contato) VALUES(@NomeCompleto, @CPF, @Email,@Senha, @CargoOcupado,@Contato)";
+            string sql = "INSERT INTO T_cadPessoal (NomeCompleto, CPF, Email,Senha, CargoOcupado, Contato, Salt) VALUES(@NomeCompleto, @CPF, @Email,@Senha, @CargoOcupado,@Contato,@Salt)";
 
             try
             {
+                string salt = PasswordHelper.GenerateSalt();
+                string senhaHash = PasswordHelper.HashPassword(tbxsenha.Text, salt);
+
                 //Adiconar Parâmetros
+
                 SqlCommand comando = new SqlCommand(sql, conn);
                 comando.Parameters.Add(new SqlParameter("@NomeCompleto", tbxnome.Text));
                 comando.Parameters.Add(new SqlParameter("@CPF", tbxcpf.Text)); 
                 comando.Parameters.Add(new SqlParameter("@Email", tbxemail.Text));
-                comando.Parameters.Add(new SqlParameter("@Senha", tbxsenha.Text));
+                comando.Parameters.Add(new SqlParameter("@Senha", senhaHash));
+                comando.Parameters.Add(new SqlParameter("@Salt",salt));
                 comando.Parameters.Add(new SqlParameter("@CargoOcupado", cbxcargo.Text));
                 comando.Parameters.Add(new SqlParameter("@Contato", tbxcontato.Text));
 
@@ -64,6 +69,11 @@ namespace ProjetoCadastro
 
 
 
+
+        }
+
+        private void F_cadastropessoal_Load(object sender, EventArgs e)
+        {
 
         }
     }

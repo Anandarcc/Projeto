@@ -141,6 +141,7 @@
             this.linkLabel1.TabIndex = 11;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Buscar Produto";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // F_cadastrodeprodutos
             // 
@@ -161,6 +162,7 @@
             this.Controls.Add(this.btncadastrarpr);
             this.Name = "F_cadastrodeprodutos";
             this.Text = "F_cadastrodeprodutos";
+            this.Load += new System.EventHandler(this.F_cadastrodeprodutos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

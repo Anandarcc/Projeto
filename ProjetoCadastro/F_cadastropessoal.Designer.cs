@@ -174,6 +174,7 @@
             this.Controls.Add(this.label1);
             this.Name = "F_cadastropessoal";
             this.Text = "F_cadastropessoal";
+            this.Load += new System.EventHandler(this.F_cadastropessoal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

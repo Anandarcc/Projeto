@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -19,17 +20,54 @@ namespace ProjetoCadastro
 
         private void btnentrar_Click(object sender, EventArgs e)
         {
+            
             String email = tbxemail.Text;
             String senha = tbxsenha.Text;
 
-            if (email == "adm@gmail.com" && senha == "2207")
+            string strconn = ("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
+            SqlConnection conn = new SqlConnection(strconn);
+
+            try
             {
-                F_cadastrodeprodutos telaprodutos = new F_cadastrodeprodutos();
-                telaprodutos.Show();
-            }
-            else
+            
+                conn.Open();
+                string sql = "SELECT Senha, Salt FROM T_cadPessoal" + " WHERE Email = @Email";//humilhação
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@Email", email);
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        string senhaHashBanco = reader.GetString(0);
+                        string saltBanco = reader.GetString(1);
+                        saltBanco = saltBanco.Replace(" ", "");
+                        string senhaHashDigitada = PasswordHelper.HashPassword(senha, saltBanco);
+
+                        senhaHashBanco = senhaHashBanco.Replace(" ", "");
+                        senhaHashDigitada = senhaHashDigitada.Replace(" ", "");
+
+                        if(senhaHashDigitada == senhaHashBanco)
+                        {
+                            F_cadastrodeprodutos telaprodutos = new F_cadastrodeprodutos();
+                            telaprodutos.ShowDialog();
+                            this.Close();
+                        
+                        }
+                        else
+                        {
+                            MessageBox.Show("Senha incorreta", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Email incorreto", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                }
+            }catch(Exception ex)
             {
-                MessageBox.Show("Email ou senha incorretos");
+                MessageBox.Show(ex.Message, "Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

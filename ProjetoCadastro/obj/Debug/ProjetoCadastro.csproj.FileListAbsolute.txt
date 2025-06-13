@@ -26,3 +26,4 @@ C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCada
 C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.csproj.CoreCompileInputs.cache
 C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.exe
 C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.pdb
+C:\Users\senacadm\Documents\GitHub\Projeto\ProjetoCadastro\obj\Debug\ProjetoCadastro.F_editarcadproduto.resources

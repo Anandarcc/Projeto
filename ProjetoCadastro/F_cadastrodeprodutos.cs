@@ -55,5 +55,16 @@ namespace ProjetoCadastro
                 conn.Close();
             }
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            F_buscar telabuscar = new F_buscar();
+            telabuscar.Show();
+        }
+
+        private void F_cadastrodeprodutos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
