@@ -106,7 +106,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(214, 141);
+            this.label2.Location = new System.Drawing.Point(211, 141);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 13);
             this.label2.TabIndex = 12;
@@ -123,11 +123,11 @@
             // 
             // Editar
             // 
-            this.Editar.Location = new System.Drawing.Point(304, 322);
+            this.Editar.Location = new System.Drawing.Point(377, 322);
             this.Editar.Name = "Editar";
             this.Editar.Size = new System.Drawing.Size(75, 23);
             this.Editar.TabIndex = 21;
-            this.Editar.Text = "Editar";
+            this.Editar.Text = "Salvar";
             this.Editar.UseVisualStyleBackColor = true;
             this.Editar.Click += new System.EventHandler(this.Editar_Click);
             // 
@@ -149,6 +149,7 @@
             this.Controls.Add(this.label1);
             this.Name = "F_editarcadproduto";
             this.Text = "F_editarcadproduto";
+            this.Load += new System.EventHandler(this.F_editarcadproduto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

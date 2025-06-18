@@ -72,11 +72,12 @@
             this.dgvlistaprodutos.RowHeadersVisible = false;
             this.dgvlistaprodutos.Size = new System.Drawing.Size(498, 154);
             this.dgvlistaprodutos.TabIndex = 3;
+            this.dgvlistaprodutos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvlistaprodutos_CellContentClick);
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(347, 30);
+            this.linkLabel1.Location = new System.Drawing.Point(341, 390);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(34, 13);
             this.linkLabel1.TabIndex = 4;

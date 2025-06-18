@@ -62,6 +62,7 @@
             this.tbxemail.Name = "tbxemail";
             this.tbxemail.Size = new System.Drawing.Size(259, 20);
             this.tbxemail.TabIndex = 2;
+            this.tbxemail.Text = "anadavila0104@gmail.com";
             // 
             // tbxsenha
             // 
@@ -69,6 +70,7 @@
             this.tbxsenha.Name = "tbxsenha";
             this.tbxsenha.Size = new System.Drawing.Size(259, 20);
             this.tbxsenha.TabIndex = 3;
+            this.tbxsenha.Text = "22070104";
             // 
             // btnentrar
             // 

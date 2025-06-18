@@ -13,15 +13,56 @@ namespace ProjetoCadastro
 {
     public partial class F_editarcadproduto : Form
     {
-        public F_editarcadproduto()
+        int ID;
+        DataGridView dgvlistaprodutos;
+        string marca;
+        string data;
+        string valor;
+        string fornecedor;
+        string quantidade;
+        public F_editarcadproduto(string m, string d, string v,string fr,string q)
         {
+            marca = m;
+            data = d;
+            valor = v;
+            fornecedor = fr;
+            quantidade = q;
+            // dgvlistaprodutos = f;
+           // ID = Convert.ToInt32(f.CurrentRow.Cells[0].Value);
             InitializeComponent();
         }
 
         private void Editar_Click(object sender, EventArgs e)
         {
             SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
-            SqlCommand command = new SqlCommand("UPDATE T_Cadastros_Produtos SET Marca = @Marca, ")
+            //string ID = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString(); 
+            SqlCommand command = new SqlCommand($"UPDATE T_Cadatros_Produtos SET Marca = @Marca, Datadecompra = @Datadecompra, Valor = @Valor, Fornecedor = @Fornecedor, Quantidade = @Quantidade WHERE id = {ID}'",conn); 
+            try
+            {
+                command.Parameters.Add(new SqlParameter("@Marca", tbxmarca));
+                command.Parameters.Add(new SqlParameter("@Datadecompra", tbxdata));
+                command.Parameters.Add(new SqlParameter("@Valor", tbxvalor));
+                command.Parameters.Add(new SqlParameter("@Fornecedor", tbxfornecedor));
+                command.Parameters.Add(new SqlParameter("@Quantidade", tbxquantidade));
+
+                conn.Open();
+                command.ExecuteNonQuery();
+                conn.Close();
+                MessageBox.Show("Alteração realizada com sucesso!", "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void F_editarcadproduto_Load(object sender, EventArgs e)
+        {
+            tbxmarca.Text = marca;
+            tbxdata.Text = data;
+            tbxvalor.Text = valor;
+            tbxfornecedor.Text = fornecedor;
+            tbxquantidade.Text = quantidade;
         }
     }
 }
