@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_buscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_buscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_buscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_buscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -64,9 +64,10 @@
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_cadastropessoal.cs",
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastropessoal.cs",
               "RelativeToolTip": "ProjetoCadastro\\F_cadastropessoal.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:32:45.405Z"
+              "WhenOpened": "2025-06-04T17:32:45.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,7 +78,8 @@
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastrodeprodutos.cs [Design]",
               "RelativeToolTip": "ProjetoCadastro\\F_cadastrodeprodutos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:15:11.096Z"
+              "WhenOpened": "2025-06-04T17:15:11.096Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -89,22 +91,24 @@
               "RelativeToolTip": "ProjetoCadastro\\F_cadastrodeprodutos.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAUwD0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T18:16:30.599Z"
+              "WhenOpened": "2025-06-04T18:16:30.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "F_buscar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_buscar.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_buscar.cs",
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_buscar.cs [Design]",
               "RelativeToolTip": "ProjetoCadastro\\F_buscar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:15:12.637Z"
+              "WhenOpened": "2025-06-04T17:15:12.637Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "F_editarcadproduto.cs [Design]",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_editarcadproduto.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_editarcadproduto.cs",
@@ -116,28 +120,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "F_editarcadproduto.cs",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_editarcadproduto.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_editarcadproduto.cs",
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_editarcadproduto.cs",
               "RelativeToolTip": "ProjetoCadastro\\F_editarcadproduto.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T20:01:48.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "F_buscar.cs",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_buscar.cs",
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_buscar.cs",
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_buscar.cs",
               "RelativeToolTip": "ProjetoCadastro\\F_buscar.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowEIAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAUwGsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T19:33:14.678Z"
+              "WhenOpened": "2025-06-11T19:33:14.678Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -148,7 +153,8 @@
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\Form1.cs [Design]",
               "RelativeToolTip": "ProjetoCadastro\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:15:03.3Z"
+              "WhenOpened": "2025-06-04T17:15:03.3Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -160,7 +166,8 @@
               "RelativeToolTip": "ProjetoCadastro\\Form1.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T19:45:21.308Z"
+              "WhenOpened": "2025-06-13T19:45:21.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -171,7 +178,8 @@
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_cadastropessoal.cs [Design]",
               "RelativeToolTip": "ProjetoCadastro\\F_cadastropessoal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:15:09.965Z"
+              "WhenOpened": "2025-06-04T17:15:09.965Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",

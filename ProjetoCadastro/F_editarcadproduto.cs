@@ -64,5 +64,30 @@ namespace ProjetoCadastro
             tbxfornecedor.Text = fornecedor;
             tbxquantidade.Text = quantidade;
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            
+           
+        }
+
+        private void lklexcluir_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           /*SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
+            SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE ID = @ID", conn);
+            ID = Convert.ToInt32(dgvlistaprodutos.CurrentRow.Cells[1].Value);
+            try
+            {
+                command.Parameters.Add(new SqlParameter("@ID", ID));
+                conn.Open();
+                command.ExecuteNonQuery();
+                conn.Close();
+                MessageBox.Show("Registro deletado com sucesso!", "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }*/
+        }
     }
 }

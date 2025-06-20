@@ -77,5 +77,43 @@ namespace ProjetoCadastro
         {
 
         }
+
+        private void lklexcluir_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           /* SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
+            SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE Marca = @Marca",conn);
+            string Marca = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString(); ;
+            try
+            {
+                command.Parameters.Add(new SqlParameter("@Marca", Marca));
+                conn.Open();
+                command.ExecuteNonQuery();
+                conn.Close();
+                MessageBox.Show("Registro deletado com sucesso!", "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }*/
+        }
+
+        private void lklexcluir_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
+            SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE Fornecedor = @Fornecedor", conn);
+            string Fornecedor = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
+            try
+            {
+                command.Parameters.Add(new SqlParameter("@Fornecedor", Fornecedor));
+                conn.Open();
+                command.ExecuteNonQuery();
+                conn.Close();
+                MessageBox.Show("Registro deletado com sucesso!", "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

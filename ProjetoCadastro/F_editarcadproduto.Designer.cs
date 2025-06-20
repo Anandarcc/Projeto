@@ -123,7 +123,7 @@
             // 
             // Editar
             // 
-            this.Editar.Location = new System.Drawing.Point(377, 322);
+            this.Editar.Location = new System.Drawing.Point(365, 322);
             this.Editar.Name = "Editar";
             this.Editar.Size = new System.Drawing.Size(75, 23);
             this.Editar.TabIndex = 21;

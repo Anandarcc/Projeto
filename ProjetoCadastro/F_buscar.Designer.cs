@@ -33,6 +33,7 @@
             this.btnbuscar = new System.Windows.Forms.Button();
             this.dgvlistaprodutos = new System.Windows.Forms.DataGridView();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lklexcluir = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvlistaprodutos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,12 +86,24 @@
             this.linkLabel1.Text = "Editar";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // lklexcluir
+            // 
+            this.lklexcluir.AutoSize = true;
+            this.lklexcluir.Location = new System.Drawing.Point(397, 390);
+            this.lklexcluir.Name = "lklexcluir";
+            this.lklexcluir.Size = new System.Drawing.Size(38, 13);
+            this.lklexcluir.TabIndex = 23;
+            this.lklexcluir.TabStop = true;
+            this.lklexcluir.Text = "Excluir";
+            this.lklexcluir.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lklexcluir_LinkClicked_1);
+            // 
             // F_buscar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lklexcluir);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.dgvlistaprodutos);
             this.Controls.Add(this.btnbuscar);
@@ -112,5 +125,6 @@
         private System.Windows.Forms.Button btnbuscar;
         private System.Windows.Forms.DataGridView dgvlistaprodutos;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel lklexcluir;
     }
 }
