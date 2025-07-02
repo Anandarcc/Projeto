@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -11,7 +12,7 @@ namespace ProjetoCadastro
 {
     public class C_CadastroProdutos
     {
-        private string ID;
+      
         private string Marca;
         private string Datadecompra;
         private string Valor;
@@ -20,7 +21,7 @@ namespace ProjetoCadastro
         private C_Conexao c_conexao = new C_Conexao();
 
 
-        public void cadastrodeprodutos( string m, string dc,string v, string f, string q)
+        public void cadastrodeprodutos(string m, string dc, string v, string f, string q)
         {
             SqlConnection conn = c_conexao.abrirConexao();
 
@@ -29,7 +30,7 @@ namespace ProjetoCadastro
             try
             {
                 SqlCommand comando = new SqlCommand(sql, conn);
-              
+
                 comando.Parameters.Add(new SqlParameter("@Marca", m));
                 comando.Parameters.Add(new SqlParameter("@Datadecompra", dc));
                 comando.Parameters.Add(new SqlParameter("@Valor", Convert.ToDouble(v)));
@@ -38,7 +39,7 @@ namespace ProjetoCadastro
 
                 string verificacao = c_conexao.modificarDados(comando, conn);
 
-                if(verificacao != "ok")
+                if (verificacao != "ok")
                 {
                     MessageBox.Show("Produto cadastrado com sucesso", "Cadastro", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -56,5 +57,24 @@ namespace ProjetoCadastro
                 conn.Close();
             }
         }
+
+            public SqlDataAdapter selecionarTodos()
+            {
+                SqlConnection conn = c_conexao.abrirConexao();
+                string command = "Select Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_Cadastros_Produtos";
+                SqlDataAdapter da = c_conexao.selecionarDados(command, conn);
+                conn.Close();
+                return da;
+
+            }
+             public SqlDataReader selecionarNomes()
+            {
+            SqlConnection conn = c_conexao.abrirConexao();
+            string command = "SELECT Marca from dbo.T_Cadastros_Produtos";
+            SqlDataReader reader = c_conexao.selecionarDadosReader(command, conn);
+            return reader;
+            }
+             
+        }
     }
-}
+

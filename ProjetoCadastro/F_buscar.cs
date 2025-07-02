@@ -39,12 +39,13 @@ namespace ProjetoCadastro
 
         private void F_buscar_Load(object sender, EventArgs e)
         {
-            SqlConnection sql = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
-            string command = "select Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_Cadastros_Produtos";
+            C_CadastroProdutos c_cadastroprodutos = new C_CadastroProdutos();
+           /* SqlConnection sql = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
+            string command = "select Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_Cadastros_Produtos";*/
             try
             {
-                sql.Open();
-                SqlDataAdapter da = new SqlDataAdapter(command, sql);
+                /*sql.Open();*/
+                SqlDataAdapter da = c_cadastroprodutos.selecionarTodos();
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 dgvlistaprodutos.DataSource = dt;
