@@ -39,6 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Editar = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tbxprodutoed = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tbxquantidade
@@ -131,11 +133,29 @@
             this.Editar.UseVisualStyleBackColor = true;
             this.Editar.Click += new System.EventHandler(this.Editar_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(214, 69);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 13);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Produto";
+            // 
+            // tbxprodutoed
+            // 
+            this.tbxprodutoed.Location = new System.Drawing.Point(304, 66);
+            this.tbxprodutoed.Name = "tbxprodutoed";
+            this.tbxprodutoed.Size = new System.Drawing.Size(213, 20);
+            this.tbxprodutoed.TabIndex = 23;
+            // 
             // F_editarcadproduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tbxprodutoed);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.Editar);
             this.Controls.Add(this.tbxquantidade);
             this.Controls.Add(this.tbxfornecedor);
@@ -168,5 +188,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Editar;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox tbxprodutoed;
     }
 }

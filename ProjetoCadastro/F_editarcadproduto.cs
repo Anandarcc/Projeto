@@ -15,13 +15,15 @@ namespace ProjetoCadastro
     {
         int ID;
         DataGridView dgvlistaprodutos;
+        string produto;
         string marca;
         string data;
         string valor;
         string fornecedor;
         string quantidade;
-        public F_editarcadproduto(string m, string d, string v,string fr,string q)
+        public F_editarcadproduto(string p, string m, string d, string v,string fr,string q)
         {
+            produto = p;
             marca = m;
             data = d;
             valor = v;
@@ -36,14 +38,15 @@ namespace ProjetoCadastro
         {
             SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
             //string ID = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString(); 
-            SqlCommand command = new SqlCommand($"UPDATE T_Cadatros_Produtos SET Marca = @Marca, Datadecompra = @Datadecompra, Valor = @Valor, Fornecedor = @Fornecedor, Quantidade = @Quantidade WHERE id = {ID}'",conn); 
+            SqlCommand command = new SqlCommand($"UPDATE T_cad_deprodutos2 SET @Produto = Produto, Marca = @Marca, Datadecompra = @Datadecompra, Valor = @Valor, Fornecedor = @Fornecedor, Quantidade = @Quantidade WHERE id = {ID}",conn); 
             try
             {
-                command.Parameters.Add(new SqlParameter("@Marca", tbxmarca));
-                command.Parameters.Add(new SqlParameter("@Datadecompra", tbxdata));
-                command.Parameters.Add(new SqlParameter("@Valor", tbxvalor));
-                command.Parameters.Add(new SqlParameter("@Fornecedor", tbxfornecedor));
-                command.Parameters.Add(new SqlParameter("@Quantidade", tbxquantidade));
+                command.Parameters.Add(new SqlParameter("@Produto", tbxprodutoed.Text));
+                command.Parameters.Add(new SqlParameter("@Marca", tbxmarca.Text));
+                command.Parameters.Add(new SqlParameter("@Datadecompra", tbxdata.Text));
+                command.Parameters.Add(new SqlParameter("@Valor", tbxvalor.Text));
+                command.Parameters.Add(new SqlParameter("@Fornecedor", tbxfornecedor.Text));
+                command.Parameters.Add(new SqlParameter("@Quantidade", tbxquantidade.Text));
 
                 conn.Open();
                 command.ExecuteNonQuery();
@@ -58,6 +61,7 @@ namespace ProjetoCadastro
 
         private void F_editarcadproduto_Load(object sender, EventArgs e)
         {
+            tbxprodutoed.Text = produto;
             tbxmarca.Text = marca;
             tbxdata.Text = data;
             tbxvalor.Text = valor;

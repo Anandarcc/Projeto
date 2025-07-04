@@ -12,7 +12,7 @@ namespace ProjetoCadastro
 {
     public class C_CadastroProdutos
     {
-      
+        private string Produto;
         private string Marca;
         private string Datadecompra;
         private string Valor;
@@ -21,16 +21,17 @@ namespace ProjetoCadastro
         private C_Conexao c_conexao = new C_Conexao();
 
 
-        public void cadastrodeprodutos(string m, string dc, string v, string f, string q)
+        public void cadastrodeprodutos(string p, string m, string dc, string v, string f, string q)
         {
             SqlConnection conn = c_conexao.abrirConexao();
 
-            string sql = "INSERT INTO T_Cadastros_Produtos" + " (Marca, Datadecompra, Valor, Fornecedor, Quantidade)" + " VALUES( @Marca, @Datadecompra, @Valor, @Fornecedor,@Quantidade)";
+            string sql = "INSERT INTO T_cad_deprodutos2" + " (Produto, Marca, Datadecompra, Valor, Fornecedor, Quantidade)" + " VALUES( @Produto, @Marca, @Datadecompra, @Valor, @Fornecedor,@Quantidade)";
 
             try
             {
                 SqlCommand comando = new SqlCommand(sql, conn);
 
+                comando.Parameters.Add(new SqlParameter("@Produto", p));
                 comando.Parameters.Add(new SqlParameter("@Marca", m));
                 comando.Parameters.Add(new SqlParameter("@Datadecompra", dc));
                 comando.Parameters.Add(new SqlParameter("@Valor", Convert.ToDouble(v)));
@@ -61,7 +62,7 @@ namespace ProjetoCadastro
             public SqlDataAdapter selecionarTodos()
             {
                 SqlConnection conn = c_conexao.abrirConexao();
-                string command = "Select Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_Cadastros_Produtos";
+                string command = "Select ID, Produto, Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_cad_deprodutos2";
                 SqlDataAdapter da = c_conexao.selecionarDados(command, conn);
                 conn.Close();
                 return da;
@@ -70,7 +71,7 @@ namespace ProjetoCadastro
              public SqlDataReader selecionarNomes()
             {
             SqlConnection conn = c_conexao.abrirConexao();
-            string command = "SELECT Marca from dbo.T_Cadastros_Produtos";
+            string command = "SELECT Marca from dbo.T_cad_deprodutos2";
             SqlDataReader reader = c_conexao.selecionarDadosReader(command, conn);
             return reader;
             }

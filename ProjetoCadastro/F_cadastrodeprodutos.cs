@@ -21,8 +21,9 @@ namespace ProjetoCadastro
         private void btncadastrarpr_Click(object sender, EventArgs e)
         {
             C_CadastroProdutos telacadp = new C_CadastroProdutos();
-            telacadp.cadastrodeprodutos(tbxmarca.Text, tbxdata.Text, tbxvalor.Text, tbxfornecedor.Text, tbxquantidade.Text);
+            telacadp.cadastrodeprodutos(tbxproduto.Text, tbxmarca.Text, tbxdata.Text, tbxvalor.Text, tbxfornecedor.Text, tbxquantidade.Text);
         }
+       
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

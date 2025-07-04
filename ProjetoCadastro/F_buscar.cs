@@ -22,7 +22,7 @@ namespace ProjetoCadastro
         {
             SqlConnection sql = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
             string buscarnome = tbxprodutob.Text; 
-            string command = $"select Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_Cadastros_Produtos WHERE Marca LIKE '%{buscarnome}%'";
+            string command = $"select Produto, Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_cad_deprodutos2 WHERE Marca LIKE '%{buscarnome}%'";
             try
             {
                 sql.Open();
@@ -59,13 +59,15 @@ namespace ProjetoCadastro
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           string marca = dgvlistaprodutos.CurrentRow.Cells[0].Value.ToString();
-           string data = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString();
-           string valor = dgvlistaprodutos.CurrentRow.Cells[2].Value.ToString();
-           string fornecedor = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
-           string quantidade = dgvlistaprodutos.CurrentRow.Cells[4].Value.ToString();
+           string ID = dgvlistaprodutos.CurrentRow.Cells[0].Value.ToString();
+           string produto = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString();
+           string marca = dgvlistaprodutos.CurrentRow.Cells[2].Value.ToString();
+           string data = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
+           string valor = dgvlistaprodutos.CurrentRow.Cells[4].Value.ToString();
+           string fornecedor = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
+           string quantidade = dgvlistaprodutos.CurrentRow.Cells[6].Value.ToString();
 
-            F_editarcadproduto telaeditarcadp = new F_editarcadproduto(marca,data, valor, fornecedor,quantidade);
+            F_editarcadproduto telaeditarcadp = new F_editarcadproduto(produto, marca,data, valor, fornecedor,quantidade);
             telaeditarcadp.Show();
         }
 
@@ -101,8 +103,8 @@ namespace ProjetoCadastro
         private void lklexcluir_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
             SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
-            SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE Fornecedor = @Fornecedor", conn);
-            string Fornecedor = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
+            SqlCommand command = new SqlCommand("DELETE FROM T_cad_deprodutos2 WHERE Fornecedor = @Fornecedor", conn);
+            string Fornecedor = dgvlistaprodutos.CurrentRow.Cells[4].Value.ToString();
             try
             {
                 command.Parameters.Add(new SqlParameter("@Fornecedor", Fornecedor));
