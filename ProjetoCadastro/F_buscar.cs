@@ -59,16 +59,17 @@ namespace ProjetoCadastro
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           string ID = dgvlistaprodutos.CurrentRow.Cells[0].Value.ToString();
-           string produto = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString();
-           string marca = dgvlistaprodutos.CurrentRow.Cells[2].Value.ToString();
-           string data = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
-           string valor = dgvlistaprodutos.CurrentRow.Cells[4].Value.ToString();
-           string fornecedor = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
-           string quantidade = dgvlistaprodutos.CurrentRow.Cells[6].Value.ToString();
+           
+           string produto = dgvlistaprodutos.CurrentRow.Cells[0].Value.ToString();
+           string marca = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString();
+           string data = dgvlistaprodutos.CurrentRow.Cells[2].Value.ToString();
+           string valor = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
+           string fornecedor = dgvlistaprodutos.CurrentRow.Cells[4].Value.ToString();
+           string quantidade = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
 
             F_editarcadproduto telaeditarcadp = new F_editarcadproduto(produto, marca,data, valor, fornecedor,quantidade);
             telaeditarcadp.Show();
+
         }
 
         private void btnselecionar_Click(object sender, EventArgs e)
@@ -83,26 +84,28 @@ namespace ProjetoCadastro
 
         private void lklexcluir_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           /* SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
-            SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE Marca = @Marca",conn);
-            string Marca = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString(); ;
-            try
-            {
-                command.Parameters.Add(new SqlParameter("@Marca", Marca));
-                conn.Open();
-                command.ExecuteNonQuery();
-                conn.Close();
-                MessageBox.Show("Registro deletado com sucesso!", "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }*/
+            string quantidade = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
+            F_buscar f_buscar = new F_buscar();
+            /* SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
+             SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE Marca = @Marca",conn);
+             string Marca = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString(); ;
+             try
+             {
+                 command.Parameters.Add(new SqlParameter("@Marca", Marca));
+                 conn.Open();
+                 command.ExecuteNonQuery();
+                 conn.Close();
+                 MessageBox.Show("Registro deletado com sucesso!", "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+             }
+             catch (Exception ex)
+             {
+                 MessageBox.Show(ex.Message, "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+             }*/
         }
 
         private void lklexcluir_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
+           /*SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
             SqlCommand command = new SqlCommand("DELETE FROM T_cad_deprodutos2 WHERE Fornecedor = @Fornecedor", conn);
             string Fornecedor = dgvlistaprodutos.CurrentRow.Cells[4].Value.ToString();
             try
@@ -116,7 +119,7 @@ namespace ProjetoCadastro
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            }*/
         }
     }
 }

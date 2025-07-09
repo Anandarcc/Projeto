@@ -32,7 +32,7 @@
             this.tbxprodutob = new System.Windows.Forms.TextBox();
             this.btnbuscar = new System.Windows.Forms.Button();
             this.dgvlistaprodutos = new System.Windows.Forms.DataGridView();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lkleditar = new System.Windows.Forms.LinkLabel();
             this.lklexcluir = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvlistaprodutos)).BeginInit();
             this.SuspendLayout();
@@ -75,16 +75,16 @@
             this.dgvlistaprodutos.TabIndex = 3;
             this.dgvlistaprodutos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvlistaprodutos_CellContentClick);
             // 
-            // linkLabel1
+            // lkleditar
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(341, 390);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(34, 13);
-            this.linkLabel1.TabIndex = 4;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Editar";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.lkleditar.AutoSize = true;
+            this.lkleditar.Location = new System.Drawing.Point(341, 390);
+            this.lkleditar.Name = "lkleditar";
+            this.lkleditar.Size = new System.Drawing.Size(34, 13);
+            this.lkleditar.TabIndex = 4;
+            this.lkleditar.TabStop = true;
+            this.lkleditar.Text = "Editar";
+            this.lkleditar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // lklexcluir
             // 
@@ -104,7 +104,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lklexcluir);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.lkleditar);
             this.Controls.Add(this.dgvlistaprodutos);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.tbxprodutob);
@@ -124,7 +124,7 @@
         private System.Windows.Forms.TextBox tbxprodutob;
         private System.Windows.Forms.Button btnbuscar;
         private System.Windows.Forms.DataGridView dgvlistaprodutos;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel lkleditar;
         private System.Windows.Forms.LinkLabel lklexcluir;
     }
 }

@@ -75,7 +75,34 @@ namespace ProjetoCadastro
             SqlDataReader reader = c_conexao.selecionarDadosReader(command, conn);
             return reader;
             }
-             
+           public void editarCadastro(string p, string m, string f, string qAntiga, string qAtualizada)
+           {
+            SqlConnection conn = c_conexao.abrirConexao();
+            SqlCommand command = new SqlCommand($"UPDATE T_cad_deprodutos2 SET Produto = @Produto, Marca = @Marca, Fornecedor = @Fornecedor, Quantidade = @Quantidade WHERE Quantidade = '{qAntiga}'", conn);
+
+            try
+            {
+                command.Parameters.Add(new SqlParameter("@Produto", p));
+                command.Parameters.Add(new SqlParameter("@Marca", m));
+                command.Parameters.Add(new SqlParameter("@Fornecedor", f));
+                command.Parameters.Add(new SqlParameter("@Quantidade", qAtualizada));
+
+                string verificacao = c_conexao.modificarDados(command, conn);
+                if(verificacao == "OK")
+                {
+                    MessageBox.Show("Cadastro alterado com sucesso!", "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Não foi possível alterar o cadastro!", "Editar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+           }
         }
     }
 
