@@ -88,7 +88,7 @@ namespace ProjetoCadastro
                 command.Parameters.Add(new SqlParameter("@Quantidade", qAtualizada));
 
                 string verificacao = c_conexao.modificarDados(command, conn);
-                if(verificacao == "OK")
+                if(verificacao == "Ok")
                 {
                     MessageBox.Show("Cadastro alterado com sucesso!", "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
