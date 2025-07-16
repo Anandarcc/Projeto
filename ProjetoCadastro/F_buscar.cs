@@ -60,21 +60,22 @@ namespace ProjetoCadastro
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
            
-           string produto = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString();
-           string marca = dgvlistaprodutos.CurrentRow.Cells[2].Value.ToString();
-           string data = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
-           string valor = dgvlistaprodutos.CurrentRow.Cells[4].Value.ToString();
-           string fornecedor = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
-           string quantidade = dgvlistaprodutos.CurrentRow.Cells[6].Value.ToString();
 
-            F_editarcadproduto telaeditarcadp = new F_editarcadproduto(produto, marca,data, valor, fornecedor,quantidade);
-            telaeditarcadp.Show();
+            string produto = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString();
+            string marca = dgvlistaprodutos.CurrentRow.Cells[2].Value.ToString();
+            string data = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
+            string valor = dgvlistaprodutos.CurrentRow.Cells[4].Value.ToString();
+            string fornecedor = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
+            string quantidade = dgvlistaprodutos.CurrentRow.Cells[6].Value.ToString();
+
+             F_editarcadproduto telaeditarcadp = new F_editarcadproduto(produto, marca,data, valor, fornecedor,quantidade);
+             telaeditarcadp.Show();
 
         }
 
         private void btnselecionar_Click(object sender, EventArgs e)
         {
-           
+          
         }
 
         private void dgvlistaprodutos_CellContentClick(object sender, DataGridViewCellEventArgs e)
