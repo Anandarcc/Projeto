@@ -14,28 +14,28 @@ namespace ProjetoCadastro
 
     public partial class F_EditCadPessoal : Form
     {
-        int ID;
+        /*int ID;
         string NomeCompleto;
         string CPF;
         string Email;
         string Senha;
-        string Contato;
+        string Contato;*/
        
 
-        public F_EditCadPessoal(int id, string nc, string cpf, string e, string s,string c)
+        public F_EditCadPessoal(/*int id, string nc, string cpf, string e, string s,string c*/)
         {
-            ID = id;
+            /*ID = id;
             NomeCompleto = nc;
             CPF = cpf;
             Email = e;
             Senha = s;
             Contato = c;
-            InitializeComponent();
+            InitializeComponent();*/
         }
 
         private void btnsalvarcadp_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
+           /*SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
             
             SqlCommand command = new SqlCommand($"UPDATE T_cadPessoal SET @NomeCompleto = NomeCompleto, CPF = @CPF, Email = @Email, Senha = @Senha, Contato = @Contato WHERE ID = {ID}", conn);
             try
@@ -54,7 +54,7 @@ namespace ProjetoCadastro
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            }*/
         }
     }
 }
