@@ -49,8 +49,8 @@ namespace ProjetoCadastro
 
                         if(senhaHashDigitada == senhaHashBanco)
                         {
-                            F_cadastrodeprodutos telaprodutos = new F_cadastrodeprodutos();
-                            telaprodutos.ShowDialog();
+                            F_ControleEstoque telacontrole = new F_ControleEstoque();
+                            telacontrole.ShowDialog();
                             this.Close();
                         
                         }

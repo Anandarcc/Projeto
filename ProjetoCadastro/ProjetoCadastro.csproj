@@ -55,11 +55,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="F_buscar.cs">
+    <Compile Include="F_ControleEstoque.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F_buscar.Designer.cs">
-      <DependentUpon>F_buscar.cs</DependentUpon>
+    <Compile Include="F_ControleEstoque.Designer.cs">
+      <DependentUpon>F_ControleEstoque.cs</DependentUpon>
     </Compile>
     <Compile Include="F_cadastrodeprodutos.cs">
       <SubType>Form</SubType>
@@ -79,14 +79,20 @@
     <Compile Include="F_editarcadproduto.Designer.cs">
       <DependentUpon>F_editarcadproduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_EditCadPessoal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_EditCadPessoal.Designer.cs">
+      <DependentUpon>F_EditCadPessoal.cs</DependentUpon>
+    </Compile>
     <Compile Include="PasswordHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F_buscar.resx">
-      <DependentUpon>F_buscar.cs</DependentUpon>
+    <EmbeddedResource Include="F_ControleEstoque.resx">
+      <DependentUpon>F_ControleEstoque.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_cadastrodeprodutos.resx">
       <DependentUpon>F_cadastrodeprodutos.cs</DependentUpon>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_editarcadproduto.resx">
       <DependentUpon>F_editarcadproduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_EditCadPessoal.resx">
+      <DependentUpon>F_EditCadPessoal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -27,7 +27,7 @@ namespace ProjetoCadastro
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            F_buscar telabuscar = new F_buscar();
+            F_ControleEstoque telabuscar = new F_ControleEstoque();
             telabuscar.Show();
         }
 

@@ -1,6 +1,6 @@
 ﻿namespace ProjetoCadastro
 {
-    partial class F_buscar
+    partial class F_ControleEstoque
     {
         /// <summary>
         /// Required designer variable.
@@ -40,7 +40,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 30);
+            this.label1.Location = new System.Drawing.Point(21, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
@@ -48,14 +48,14 @@
             // 
             // tbxprodutob
             // 
-            this.tbxprodutob.Location = new System.Drawing.Point(89, 27);
+            this.tbxprodutob.Location = new System.Drawing.Point(71, 27);
             this.tbxprodutob.Name = "tbxprodutob";
             this.tbxprodutob.Size = new System.Drawing.Size(171, 20);
             this.tbxprodutob.TabIndex = 1;
             // 
             // btnbuscar
             // 
-            this.btnbuscar.Location = new System.Drawing.Point(266, 25);
+            this.btnbuscar.Location = new System.Drawing.Point(258, 25);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(75, 23);
             this.btnbuscar.TabIndex = 2;
@@ -67,18 +67,18 @@
             // 
             this.dgvlistaprodutos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgvlistaprodutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvlistaprodutos.Location = new System.Drawing.Point(42, 65);
+            this.dgvlistaprodutos.Location = new System.Drawing.Point(24, 65);
             this.dgvlistaprodutos.Name = "dgvlistaprodutos";
             this.dgvlistaprodutos.ReadOnly = true;
             this.dgvlistaprodutos.RowHeadersVisible = false;
-            this.dgvlistaprodutos.Size = new System.Drawing.Size(498, 154);
+            this.dgvlistaprodutos.Size = new System.Drawing.Size(685, 350);
             this.dgvlistaprodutos.TabIndex = 3;
             this.dgvlistaprodutos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvlistaprodutos_CellContentClick);
             // 
             // lkleditar
             // 
             this.lkleditar.AutoSize = true;
-            this.lkleditar.Location = new System.Drawing.Point(341, 390);
+            this.lkleditar.Location = new System.Drawing.Point(339, 428);
             this.lkleditar.Name = "lkleditar";
             this.lkleditar.Size = new System.Drawing.Size(34, 13);
             this.lkleditar.TabIndex = 4;
@@ -89,7 +89,7 @@
             // lklexcluir
             // 
             this.lklexcluir.AutoSize = true;
-            this.lklexcluir.Location = new System.Drawing.Point(397, 390);
+            this.lklexcluir.Location = new System.Drawing.Point(392, 428);
             this.lklexcluir.Name = "lklexcluir";
             this.lklexcluir.Size = new System.Drawing.Size(38, 13);
             this.lklexcluir.TabIndex = 23;
@@ -97,7 +97,7 @@
             this.lklexcluir.Text = "Excluir";
             this.lklexcluir.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lklexcluir_LinkClicked_1);
             // 
-            // F_buscar
+            // F_ControleEstoque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,7 +109,7 @@
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.tbxprodutob);
             this.Controls.Add(this.label1);
-            this.Name = "F_buscar";
+            this.Name = "F_ControleEstoque";
             this.Text = "F_buscar";
             this.Load += new System.EventHandler(this.F_buscar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvlistaprodutos)).EndInit();

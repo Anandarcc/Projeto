@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ProjetoCadastro
 {
-    public partial class F_buscar : Form
+    public partial class F_ControleEstoque : Form
     {
-        public F_buscar()
+        public F_ControleEstoque()
         {
             InitializeComponent();
         }
@@ -59,8 +59,8 @@ namespace ProjetoCadastro
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           
 
+            int id = Convert.ToInt32(dgvlistaprodutos.CurrentRow.Cells[0].Value.ToString());
             string produto = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString();
             string marca = dgvlistaprodutos.CurrentRow.Cells[2].Value.ToString();
             string data = dgvlistaprodutos.CurrentRow.Cells[3].Value.ToString();
@@ -68,7 +68,7 @@ namespace ProjetoCadastro
             string fornecedor = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
             string quantidade = dgvlistaprodutos.CurrentRow.Cells[6].Value.ToString();
 
-             F_editarcadproduto telaeditarcadp = new F_editarcadproduto(produto, marca,data, valor, fornecedor,quantidade);
+             F_editarcadproduto telaeditarcadp = new F_editarcadproduto(id, produto, marca,data, valor, fornecedor,quantidade);
              telaeditarcadp.Show();
 
         }
@@ -88,11 +88,11 @@ namespace ProjetoCadastro
             /*string quantidade = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
             F_buscar f_buscar = new F_buscar();*/
             /* SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
-             SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE Marca = @Marca",conn);
+             SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE Produto = @Produto",conn);
              string Marca = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString(); ;
              try
              {
-                 command.Parameters.Add(new SqlParameter("@Marca", Marca));
+                 command.Parameters.Add(new SqlParameter("@Produto", Produto));
                  conn.Open();
                  command.ExecuteNonQuery();
                  conn.Close();
