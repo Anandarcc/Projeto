@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace ProjetoCadastro
 {
@@ -37,8 +38,13 @@ namespace ProjetoCadastro
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            /*F_EditCadPessoal telaeditcadpessoal = new F_EditCadPessoal();
-            telaeditcadpessoal.Show();*/
+            
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            F_EditCadPessoal telaeditar = new F_EditCadPessoal();
+            telaeditar.Show();
         }
     }
 }

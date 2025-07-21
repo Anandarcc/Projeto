@@ -85,7 +85,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(297, 312);
+            this.label3.Location = new System.Drawing.Point(300, 275);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 13);
             this.label3.TabIndex = 5;
@@ -94,7 +94,7 @@
             // llkcadastro
             // 
             this.llkcadastro.AutoSize = true;
-            this.llkcadastro.Location = new System.Drawing.Point(413, 312);
+            this.llkcadastro.Location = new System.Drawing.Point(416, 275);
             this.llkcadastro.Name = "llkcadastro";
             this.llkcadastro.Size = new System.Drawing.Size(49, 13);
             this.llkcadastro.TabIndex = 6;

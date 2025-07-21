@@ -91,7 +91,35 @@ namespace ProjetoCadastro
             {
                 MessageBox.Show(ex.Message, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-        
         }
+       /*public void editarPerfil(string nomec, string cpf, string email, string senha, string contato)
+        {
+           /*SqlConnection conn = c_conexao.abrirConexao();
+            SqlCommand command = new SqlCommand($"UPDATE T_CadPessoal SET NomeCompleto = @NomeCompleto, Email = @Email, Senha = @Senha, Contato = @Contato WHERE CPF = '{cpf}'", conn);
+
+            try
+            {
+
+                command.Parameters.Add(new SqlParameter("@NomeCompleto", nomec));
+                command.Parameters.Add(new SqlParameter("@Email", email));
+                command.Parameters.Add(new SqlParameter("@Senha", senha));
+                command.Parameters.Add(new SqlParameter("@Contato", contato));
+                command.Parameters.Add(new SqlParameter("@CPF", cpf));
+
+                string verificacao = c_conexao.modificarDados(command, conn);
+                if (verificacao == "Ok")
+                {
+                    MessageBox.Show("Cadastro alterado com sucesso!", "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Não foi possível alterar o cadastro!", "Editar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }*/
     }
 }
