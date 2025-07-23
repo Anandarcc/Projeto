@@ -30,8 +30,8 @@ namespace ProjetoCadastro
             CPF = cpf;
             Email = e;
             Senha = s;
-            Contato = c;
-            InitializeComponent();*/
+            Contato = c;*/
+            InitializeComponent();
         }
 
         private void btnsalvarcadp_Click(object sender, EventArgs e)
@@ -92,12 +92,31 @@ namespace ProjetoCadastro
 
         private void btnselecionar_Click(object sender, EventArgs e)
         {
-           /* tbxnomeed.Text = dgvcadastropessoal.CurrentRow.Cells[1].Value.ToString();
+            tbxnomeed.Text = dgvcadastropessoal.CurrentRow.Cells[1].Value.ToString();
             tbxcpfed.Text = dgvcadastropessoal.CurrentRow.Cells[2].Value.ToString();
             tbxemailed.Text = dgvcadastropessoal.CurrentRow.Cells[3].Value.ToString();
             tbxsenhaed.Text = dgvcadastropessoal.CurrentRow.Cells[4].Value.ToString();
-            tbxcontatoed.Text = dgvcadastropessoal.CurrentRow.Cells[5].Value.ToString();*/
+            tbxcontatoed.Text = dgvcadastropessoal.CurrentRow.Cells[5].Value.ToString();
 
+       
+        }
+
+        private void F_EditCadPessoal_Load(object sender, EventArgs e)
+        {
+           /* SqlConnection sql = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
+            string command = "select Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_Cadastros_Produtos";
+            try
+            {
+                sql.Open();
+                SqlDataAdapter da = c_cadastroprodutos.selecionarTodos();
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                dgvlistaprodutos.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Listar Produtos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }*/
         }
     }
 }

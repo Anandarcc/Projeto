@@ -34,6 +34,8 @@
             this.dgvlistaprodutos = new System.Windows.Forms.DataGridView();
             this.lkleditar = new System.Windows.Forms.LinkLabel();
             this.lklexcluir = new System.Windows.Forms.LinkLabel();
+            this.btncadastrarproduto = new System.Windows.Forms.Button();
+            this.lklentrada = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvlistaprodutos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,12 +99,35 @@
             this.lklexcluir.Text = "Excluir";
             this.lklexcluir.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lklexcluir_LinkClicked_1);
             // 
+            // btncadastrarproduto
+            // 
+            this.btncadastrarproduto.Location = new System.Drawing.Point(342, 25);
+            this.btncadastrarproduto.Name = "btncadastrarproduto";
+            this.btncadastrarproduto.Size = new System.Drawing.Size(118, 23);
+            this.btncadastrarproduto.TabIndex = 24;
+            this.btncadastrarproduto.Text = "Cadastrar Produto";
+            this.btncadastrarproduto.UseVisualStyleBackColor = true;
+            this.btncadastrarproduto.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lklentrada
+            // 
+            this.lklentrada.AutoSize = true;
+            this.lklentrada.Location = new System.Drawing.Point(733, 169);
+            this.lklentrada.Name = "lklentrada";
+            this.lklentrada.Size = new System.Drawing.Size(44, 13);
+            this.lklentrada.TabIndex = 25;
+            this.lklentrada.TabStop = true;
+            this.lklentrada.Text = "Entrada";
+            this.lklentrada.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
+            // 
             // F_ControleEstoque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lklentrada);
+            this.Controls.Add(this.btncadastrarproduto);
             this.Controls.Add(this.lklexcluir);
             this.Controls.Add(this.lkleditar);
             this.Controls.Add(this.dgvlistaprodutos);
@@ -126,5 +151,7 @@
         private System.Windows.Forms.DataGridView dgvlistaprodutos;
         private System.Windows.Forms.LinkLabel lkleditar;
         private System.Windows.Forms.LinkLabel lklexcluir;
+        private System.Windows.Forms.Button btncadastrarproduto;
+        private System.Windows.Forms.LinkLabel lklentrada;
     }
 }

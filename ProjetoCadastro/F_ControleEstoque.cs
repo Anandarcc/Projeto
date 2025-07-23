@@ -85,23 +85,6 @@ namespace ProjetoCadastro
 
         private void lklexcluir_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            /*string quantidade = dgvlistaprodutos.CurrentRow.Cells[5].Value.ToString();
-            F_buscar f_buscar = new F_buscar();*/
-            /* SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; Initial Catalog=Cadastro; Integrated Security=true");
-             SqlCommand command = new SqlCommand("DELETE FROM T_Cadastros_Produtos WHERE Produto = @Produto",conn);
-             string Marca = dgvlistaprodutos.CurrentRow.Cells[1].Value.ToString(); ;
-             try
-             {
-                 command.Parameters.Add(new SqlParameter("@Produto", Produto));
-                 conn.Open();
-                 command.ExecuteNonQuery();
-                 conn.Close();
-                 MessageBox.Show("Registro deletado com sucesso!", "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-             }
-             catch (Exception ex)
-             {
-                 MessageBox.Show(ex.Message, "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-             }*/
         }
 
         private void lklexcluir_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
@@ -121,6 +104,18 @@ namespace ProjetoCadastro
             {
                 MessageBox.Show(ex.Message, "Deletar", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            F_cadastrodeprodutos telacadproduto = new F_cadastrodeprodutos();
+            telacadproduto.Show();
+        }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            F_Entrada telaentrada = new F_Entrada();
+            telaentrada.Show();
         }
     }
 }

@@ -183,6 +183,7 @@
             this.Controls.Add(this.label1);
             this.Name = "F_EditCadPessoal";
             this.Text = "F_EditCadPessoal";
+            this.Load += new System.EventHandler(this.F_EditCadPessoal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvcadastropessoal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
