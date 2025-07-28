@@ -63,7 +63,7 @@ namespace ProjetoCadastro
                 conn.Close();
             }
         }
-            public void editarCadastro(string nc, string e,string s,string c, string cpfAntiga, string cpfAtualizada)
+        public void editarCadastro(string nc, string e, string s, string c, string cpfAntiga, string cpfAtualizada)
         {
             SqlConnection conn = c_conexao.abrirConexao();
             SqlCommand command = new SqlCommand($"UPDATE T_CadPessoal SET NomeCompleto = @NomeCompleto, Email = @Email, Senha = @Senha, Contato = @Contato WHERE CPF = '{cpfAntiga}'", conn);
@@ -121,7 +121,7 @@ namespace ProjetoCadastro
                  MessageBox.Show(ex.Message, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
              }
          }*/
-        /*public SqlDataAdapter selecionarTodos()
+        public SqlDataAdapter selecionarTodos()
         {
             SqlConnection conn = c_conexao.abrirConexao();
             string command = "Select ID, NomeCompleto, CPF, Email, Senha, CargoOcupado, Contato, Salt from dbo.T_cadPessoal";
@@ -136,6 +136,13 @@ namespace ProjetoCadastro
             string command = "SELECT NomeCompleto from dbo.T_cadPessoal";
             SqlDataReader reader = c_conexao.selecionarDadosReader(command, conn);
             return reader;
-        }*/
+        }
+        public SqlDataReader selecionarTodosReader()
+        {
+            SqlConnection conn = c_conexao.abrirConexao();
+            string command = "SELECT * from dbo.T_cadPessoal";
+            SqlDataReader reader = c_conexao.selecionarDadosReader(command, conn);
+            return reader;
+        }
     }
 }

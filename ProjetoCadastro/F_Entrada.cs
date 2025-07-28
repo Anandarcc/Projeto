@@ -55,6 +55,25 @@ namespace ProjetoCadastro
             {
                 MessageBox.Show("Erro ao carregar produto: " + ex.Message);
             }
+
+            try
+            {
+                C_Cadpessoal c_cadpessoal = new C_Cadpessoal();
+                SqlDataReader reader = c_cadpessoal.selecionarTodosReader();
+                while (reader.Read())
+                {
+                    string id = reader["ID"].ToString();
+                    string nome = reader["NomeCompleto"].ToString();
+                    string idresponsavel = $"{id} - {nome}";
+                    cbxresponsavelentrada.Items.Add(idresponsavel);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar nomes: " + ex.Message);
+            }
         }
     }
 }

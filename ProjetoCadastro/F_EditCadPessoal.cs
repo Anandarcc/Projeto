@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -103,6 +104,18 @@ namespace ProjetoCadastro
 
         private void F_EditCadPessoal_Load(object sender, EventArgs e)
         {
+            C_Cadpessoal c_cadastropessoal = new C_Cadpessoal();
+            try
+            {
+                SqlDataAdapter da = c_cadastropessoal.selecionarTodos();
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                dgvcadastropessoal.DataSource = dt;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
            /* SqlConnection sql = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
             string command = "select Marca, Datadecompra, Valor, Fornecedor, Quantidade from dbo.T_Cadastros_Produtos";
             try

@@ -45,7 +45,7 @@
             // 
             // btncadastrarpr
             // 
-            this.btncadastrarpr.Location = new System.Drawing.Point(316, 319);
+            this.btncadastrarpr.Location = new System.Drawing.Point(321, 328);
             this.btncadastrarpr.Name = "btncadastrarpr";
             this.btncadastrarpr.Size = new System.Drawing.Size(123, 23);
             this.btncadastrarpr.TabIndex = 0;

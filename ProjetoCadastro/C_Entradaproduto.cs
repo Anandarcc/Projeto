@@ -14,9 +14,11 @@ namespace ProjetoCadastro
         public SqlDataReader selecionarTodos()
         {
             SqlConnection conn = c_conexao.abrirConexao();
-            string command = "SELECT * from dbo.T_entrada";
+            string command = "SELECT * from dbo.T_cad_deprodutos2";
             SqlDataReader reader = c_conexao.selecionarDadosReader(command, conn);
-            return reader; 
+            return reader;
         }
+       
     }
 }
+
