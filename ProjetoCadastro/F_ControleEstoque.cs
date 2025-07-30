@@ -117,5 +117,11 @@ namespace ProjetoCadastro
             F_Entrada telaentrada = new F_Entrada();
             telaentrada.Show();
         }
+
+        private void linkLabel1_LinkClicked_2(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            F_Saida telasaida = new F_Saida();
+            telasaida.Show();
+        }
     }
 }

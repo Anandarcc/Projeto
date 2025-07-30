@@ -45,35 +45,35 @@
             // 
             // tbxquantidade
             // 
-            this.tbxquantidade.Location = new System.Drawing.Point(304, 257);
+            this.tbxquantidade.Location = new System.Drawing.Point(340, 260);
             this.tbxquantidade.Name = "tbxquantidade";
             this.tbxquantidade.Size = new System.Drawing.Size(213, 20);
             this.tbxquantidade.TabIndex = 20;
             // 
             // tbxfornecedor
             // 
-            this.tbxfornecedor.Location = new System.Drawing.Point(304, 223);
+            this.tbxfornecedor.Location = new System.Drawing.Point(340, 223);
             this.tbxfornecedor.Name = "tbxfornecedor";
             this.tbxfornecedor.Size = new System.Drawing.Size(213, 20);
             this.tbxfornecedor.TabIndex = 19;
             // 
             // tbxvalor
             // 
-            this.tbxvalor.Location = new System.Drawing.Point(304, 181);
+            this.tbxvalor.Location = new System.Drawing.Point(340, 181);
             this.tbxvalor.Name = "tbxvalor";
             this.tbxvalor.Size = new System.Drawing.Size(213, 20);
             this.tbxvalor.TabIndex = 18;
             // 
             // tbxdata
             // 
-            this.tbxdata.Location = new System.Drawing.Point(304, 141);
+            this.tbxdata.Location = new System.Drawing.Point(340, 141);
             this.tbxdata.Name = "tbxdata";
             this.tbxdata.Size = new System.Drawing.Size(213, 20);
             this.tbxdata.TabIndex = 17;
             // 
             // tbxmarca
             // 
-            this.tbxmarca.Location = new System.Drawing.Point(304, 102);
+            this.tbxmarca.Location = new System.Drawing.Point(340, 102);
             this.tbxmarca.Name = "tbxmarca";
             this.tbxmarca.Size = new System.Drawing.Size(213, 20);
             this.tbxmarca.TabIndex = 16;
@@ -81,53 +81,59 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(214, 260);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 13);
+            this.label5.Size = new System.Drawing.Size(91, 20);
             this.label5.TabIndex = 15;
             this.label5.Text = "Quantidade:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(214, 223);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 13);
+            this.label4.Size = new System.Drawing.Size(88, 20);
             this.label4.TabIndex = 14;
             this.label4.Text = "Fornecedor:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(214, 181);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(48, 20);
             this.label3.TabIndex = 13;
             this.label3.Text = "Valor:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(211, 141);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 13);
+            this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 12;
             this.label2.Text = "Data de Compra:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(214, 102);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(55, 20);
             this.label1.TabIndex = 11;
             this.label1.Text = "Marca:";
             // 
             // Editar
             // 
-            this.Editar.Location = new System.Drawing.Point(365, 322);
+            this.Editar.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Editar.Location = new System.Drawing.Point(413, 322);
             this.Editar.Name = "Editar";
-            this.Editar.Size = new System.Drawing.Size(75, 23);
+            this.Editar.Size = new System.Drawing.Size(85, 28);
             this.Editar.TabIndex = 21;
             this.Editar.Text = "Salvar";
             this.Editar.UseVisualStyleBackColor = true;
@@ -136,15 +142,16 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(214, 69);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 13);
+            this.label6.Size = new System.Drawing.Size(63, 20);
             this.label6.TabIndex = 22;
             this.label6.Text = "Produto";
             // 
             // tbxprodutoed
             // 
-            this.tbxprodutoed.Location = new System.Drawing.Point(304, 66);
+            this.tbxprodutoed.Location = new System.Drawing.Point(340, 69);
             this.tbxprodutoed.Name = "tbxprodutoed";
             this.tbxprodutoed.Size = new System.Drawing.Size(213, 20);
             this.tbxprodutoed.TabIndex = 23;
@@ -153,6 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tbxprodutoed);
             this.Controls.Add(this.label6);

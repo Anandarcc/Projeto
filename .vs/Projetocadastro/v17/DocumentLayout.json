@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\",
+  "WorkspaceRootPath": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\senacadm\\documents\\github\\projeto\\projetocadastro\\f_saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -29,6 +30,42 @@
     {
       "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\projetocadastro\\f_entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|c:\\users\\davila\\downloads\\projeto-main (1)\\projeto-main\\projetocadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\projetocadastro\\f_entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastrodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\projetocadastro\\f_controleestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_controleestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\projetocadastro\\f_editcadpessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_editcadpessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\projetocadastro\\f_editcadpessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_editcadpessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_cadastropessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_editarcadproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\projetocadastro\\f_saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BECF9ED2-46D1-455F-A9D7-DBDA47E0D8DC}|ProjetoCadastro\\ProjetoCadastro.csproj|solutionrelative:projetocadastro\\f_saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> 4d890ccc8914a8c5051f375863c8f5394e46d3c6
     }
   ],
   "DocumentGroupContainers": [
@@ -38,6 +75,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -48,13 +86,26 @@
               "RelativeDocumentMoniker": "ProjetoCadastro\\F_Entrada.cs",
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_Entrada.cs [Design]",
               "RelativeToolTip": "ProjetoCadastro\\F_Entrada.cs [Design]",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\Form1.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\Form1.cs [Design]",
+              "RelativeToolTip": "ProjetoCadastro\\Form1.cs [Design]",
+>>>>>>> 4d890ccc8914a8c5051f375863c8f5394e46d3c6
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:44:09.096Z",
+              "WhenOpened": "2025-07-29T21:59:39.33Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "F_Saida.cs",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_Saida.cs",
@@ -87,12 +138,33 @@
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\F_Entrada.cs",
               "RelativeToolTip": "ProjetoCadastro\\F_Entrada.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwCoAAAA1AAAAAAAAAA==",
+=======
+              "DocumentIndex": 3,
+              "Title": "F_ControleEstoque.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_ControleEstoque.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_ControleEstoque.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_ControleEstoque.cs [Design]",
+              "RelativeToolTip": "ProjetoCadastro\\F_ControleEstoque.cs [Design]",
+>>>>>>> 4d890ccc8914a8c5051f375863c8f5394e46d3c6
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:30:18.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T22:43:17.637Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "F_cadastrodeprodutos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_cadastrodeprodutos.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_cadastrodeprodutos.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_cadastrodeprodutos.cs [Design]",
+              "RelativeToolTip": "ProjetoCadastro\\F_cadastrodeprodutos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T23:51:33.98Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
               "Title": "C_Cadpessoal.cs",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\C_Cadpessoal.cs",
@@ -100,12 +172,69 @@
               "ToolTip": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\C_Cadpessoal.cs",
               "RelativeToolTip": "ProjetoCadastro\\C_Cadpessoal.cs",
               "ViewState": "AgIAAHMAAAAAAAAAAAAuwJEAAAAJAAAAAAAAAA==",
+=======
+              "DocumentIndex": 1,
+              "Title": "F_Entrada.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_Entrada.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_Entrada.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_Entrada.cs [Design]",
+              "RelativeToolTip": "ProjetoCadastro\\F_Entrada.cs [Design]",
+>>>>>>> 4d890ccc8914a8c5051f375863c8f5394e46d3c6
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T18:40:27.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T00:09:20.165Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "F_Saida.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_Saida.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_Saida.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_Saida.cs [Design]",
+              "RelativeToolTip": "ProjetoCadastro\\F_Saida.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:11:45.41Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "F_editarcadproduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_editarcadproduto.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_editarcadproduto.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_editarcadproduto.cs [Design]",
+              "RelativeToolTip": "ProjetoCadastro\\F_editarcadproduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:15:27.613Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "F_cadastropessoal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_cadastropessoal.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_cadastropessoal.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_cadastropessoal.cs [Design]",
+              "RelativeToolTip": "ProjetoCadastro\\F_cadastropessoal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:17:47.481Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "F_EditCadPessoal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_EditCadPessoal.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_EditCadPessoal.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_EditCadPessoal.cs [Design]",
+              "RelativeToolTip": "ProjetoCadastro\\F_EditCadPessoal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:20:29.189Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "C_Entradaproduto.cs",
               "DocumentMoniker": "C:\\Users\\senacadm\\Documents\\GitHub\\Projeto\\ProjetoCadastro\\C_Entradaproduto.cs",
@@ -129,6 +258,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T18:51:46.569Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 4,
+              "Title": "F_EditCadPessoal.cs",
+              "DocumentMoniker": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_EditCadPessoal.cs",
+              "RelativeDocumentMoniker": "ProjetoCadastro\\F_EditCadPessoal.cs",
+              "ToolTip": "C:\\Users\\Davila\\Downloads\\Projeto-main (1)\\Projeto-main\\ProjetoCadastro\\F_EditCadPessoal.cs",
+              "RelativeToolTip": "ProjetoCadastro\\F_EditCadPessoal.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T17:18:25.386Z"
+>>>>>>> 4d890ccc8914a8c5051f375863c8f5394e46d3c6
             }
           ]
         }
