@@ -43,52 +43,57 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(288, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 13);
+            this.label1.Size = new System.Drawing.Size(187, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = " Entrada de Produtos";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(88, 101);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 13);
+            this.label2.Size = new System.Drawing.Size(67, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Produto:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(88, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Quantidade:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(88, 194);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
+            this.label4.Size = new System.Drawing.Size(44, 20);
             this.label4.TabIndex = 3;
             this.label4.Text = "Data:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(88, 244);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 13);
+            this.label5.Size = new System.Drawing.Size(94, 20);
             this.label5.TabIndex = 4;
             this.label5.Text = "Responsável:";
             // 
             // cbxprodutoentrada
             // 
             this.cbxprodutoentrada.FormattingEnabled = true;
-            this.cbxprodutoentrada.Location = new System.Drawing.Point(178, 98);
+            this.cbxprodutoentrada.Location = new System.Drawing.Point(188, 103);
             this.cbxprodutoentrada.Name = "cbxprodutoentrada";
             this.cbxprodutoentrada.Size = new System.Drawing.Size(337, 21);
             this.cbxprodutoentrada.TabIndex = 5;
@@ -96,32 +101,34 @@
             // cbxresponsavelentrada
             // 
             this.cbxresponsavelentrada.FormattingEnabled = true;
-            this.cbxresponsavelentrada.Location = new System.Drawing.Point(178, 241);
+            this.cbxresponsavelentrada.Location = new System.Drawing.Point(188, 246);
             this.cbxresponsavelentrada.Name = "cbxresponsavelentrada";
             this.cbxresponsavelentrada.Size = new System.Drawing.Size(337, 21);
             this.cbxresponsavelentrada.TabIndex = 6;
             // 
             // tbxquantidadentrada
             // 
-            this.tbxquantidadentrada.Location = new System.Drawing.Point(178, 142);
+            this.tbxquantidadentrada.Location = new System.Drawing.Point(188, 147);
             this.tbxquantidadentrada.Name = "tbxquantidadentrada";
             this.tbxquantidadentrada.Size = new System.Drawing.Size(337, 20);
             this.tbxquantidadentrada.TabIndex = 7;
             // 
             // btnregistro
             // 
-            this.btnregistro.Location = new System.Drawing.Point(300, 316);
+            this.btnregistro.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnregistro.Location = new System.Drawing.Point(293, 307);
             this.btnregistro.Name = "btnregistro";
-            this.btnregistro.Size = new System.Drawing.Size(75, 23);
+            this.btnregistro.Size = new System.Drawing.Size(153, 31);
             this.btnregistro.TabIndex = 9;
-            this.btnregistro.Text = "Registrar";
+            this.btnregistro.Text = "Registrar Entrada";
             this.btnregistro.UseVisualStyleBackColor = true;
             this.btnregistro.Click += new System.EventHandler(this.btnregistro_Click);
             // 
             // dtpentrada
             // 
+            this.dtpentrada.Font = new System.Drawing.Font("Lucida Bright", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpentrada.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpentrada.Location = new System.Drawing.Point(178, 194);
+            this.dtpentrada.Location = new System.Drawing.Point(188, 194);
             this.dtpentrada.Name = "dtpentrada";
             this.dtpentrada.Size = new System.Drawing.Size(337, 20);
             this.dtpentrada.TabIndex = 10;
@@ -130,6 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dtpentrada);
             this.Controls.Add(this.btnregistro);

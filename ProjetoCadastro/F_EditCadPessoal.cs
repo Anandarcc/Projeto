@@ -37,7 +37,7 @@ namespace ProjetoCadastro
 
         private void btnsalvarcadp_Click(object sender, EventArgs e)
         {
-           /*SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
+           SqlConnection conn = new SqlConnection("Data Source=SOB041996L4B1PC\\SQLEXPRESS; " + "Initial Catalog=Cadastro; Integrated Security=true");
             
             SqlCommand command = new SqlCommand($"UPDATE T_cadPessoal SET @NomeCompleto = NomeCompleto, CPF = @CPF, Email = @Email, Senha = @Senha, Contato = @Contato WHERE ID = {ID}", conn);
             try
@@ -56,7 +56,7 @@ namespace ProjetoCadastro
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }*/
+            }
         }
 
         private void lkleditarcadp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

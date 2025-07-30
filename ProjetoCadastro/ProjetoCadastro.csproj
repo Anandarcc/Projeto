@@ -51,6 +51,8 @@
     <Compile Include="C_Conexao.cs" />
     <Compile Include="C_Entrada.cs" />
     <Compile Include="C_Entradaproduto.cs" />
+    <Compile Include="C_Saida.cs" />
+    <Compile Include="C_SaidaProdutos.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +95,12 @@
     <Compile Include="F_Entrada.Designer.cs">
       <DependentUpon>F_Entrada.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_Saida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Saida.Designer.cs">
+      <DependentUpon>F_Saida.cs</DependentUpon>
+    </Compile>
     <Compile Include="PasswordHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -117,6 +125,9 @@
     <EmbeddedResource Include="F_Entrada.resx">
       <DependentUpon>F_Entrada.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_Saida.resx">
+      <DependentUpon>F_Saida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -125,6 +136,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -138,6 +150,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22730495-abstrato-azul-fundo-com-suave-linhas-e-luz-efeitos-foto.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

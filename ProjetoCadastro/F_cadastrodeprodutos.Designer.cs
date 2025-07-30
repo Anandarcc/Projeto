@@ -45,9 +45,10 @@
             // 
             // btncadastrarpr
             // 
-            this.btncadastrarpr.Location = new System.Drawing.Point(321, 328);
+            this.btncadastrarpr.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncadastrarpr.Location = new System.Drawing.Point(343, 332);
             this.btncadastrarpr.Name = "btncadastrarpr";
-            this.btncadastrarpr.Size = new System.Drawing.Size(123, 23);
+            this.btncadastrarpr.Size = new System.Drawing.Size(143, 30);
             this.btncadastrarpr.TabIndex = 0;
             this.btncadastrarpr.Text = "Cadastrar Produto";
             this.btncadastrarpr.UseVisualStyleBackColor = true;
@@ -56,86 +57,96 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(195, 102);
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(189, 100);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(49, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "Marca:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(189, 141);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 13);
+            this.label2.Size = new System.Drawing.Size(108, 18);
             this.label2.TabIndex = 2;
             this.label2.Text = "Data de Compra:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(195, 186);
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(189, 186);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(44, 18);
             this.label3.TabIndex = 3;
             this.label3.Text = "Valor:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(190, 230);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 13);
+            this.label4.Size = new System.Drawing.Size(78, 18);
             this.label4.TabIndex = 4;
             this.label4.Text = "Fornecedor:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(189, 273);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 13);
+            this.label5.Size = new System.Drawing.Size(82, 18);
             this.label5.TabIndex = 5;
             this.label5.Text = "Quantidade:";
             // 
             // tbxmarca
             // 
-            this.tbxmarca.Location = new System.Drawing.Point(279, 99);
+            this.tbxmarca.Location = new System.Drawing.Point(303, 100);
             this.tbxmarca.Name = "tbxmarca";
             this.tbxmarca.Size = new System.Drawing.Size(213, 20);
             this.tbxmarca.TabIndex = 6;
             // 
             // tbxdata
             // 
-            this.tbxdata.Location = new System.Drawing.Point(279, 141);
+            this.tbxdata.Location = new System.Drawing.Point(303, 141);
             this.tbxdata.Name = "tbxdata";
             this.tbxdata.Size = new System.Drawing.Size(213, 20);
             this.tbxdata.TabIndex = 7;
             // 
             // tbxvalor
             // 
-            this.tbxvalor.Location = new System.Drawing.Point(279, 183);
+            this.tbxvalor.Location = new System.Drawing.Point(303, 184);
             this.tbxvalor.Name = "tbxvalor";
             this.tbxvalor.Size = new System.Drawing.Size(213, 20);
             this.tbxvalor.TabIndex = 8;
             // 
             // tbxfornecedor
             // 
-            this.tbxfornecedor.Location = new System.Drawing.Point(279, 227);
+            this.tbxfornecedor.Location = new System.Drawing.Point(303, 228);
             this.tbxfornecedor.Name = "tbxfornecedor";
             this.tbxfornecedor.Size = new System.Drawing.Size(213, 20);
             this.tbxfornecedor.TabIndex = 9;
             // 
             // tbxquantidade
             // 
-            this.tbxquantidade.Location = new System.Drawing.Point(279, 270);
+            this.tbxquantidade.Location = new System.Drawing.Point(303, 271);
             this.tbxquantidade.Name = "tbxquantidade";
             this.tbxquantidade.Size = new System.Drawing.Size(213, 20);
             this.tbxquantidade.TabIndex = 10;
             // 
             // tbxproduto
             // 
-            this.tbxproduto.Location = new System.Drawing.Point(279, 57);
+            this.tbxproduto.Location = new System.Drawing.Point(303, 60);
             this.tbxproduto.Name = "tbxproduto";
             this.tbxproduto.Size = new System.Drawing.Size(213, 20);
             this.tbxproduto.TabIndex = 25;
@@ -143,9 +154,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(190, 60);
+            this.label6.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(189, 60);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 13);
+            this.label6.Size = new System.Drawing.Size(57, 18);
             this.label6.TabIndex = 24;
             this.label6.Text = "Produto";
             // 
@@ -153,6 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tbxproduto);
             this.Controls.Add(this.label6);
